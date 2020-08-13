@@ -14,4 +14,4 @@ Which method(s) did you have to create yourself? Why?
 Add these deliverables:
 - A Student belongs to a Teacher
 - Student#teacher should return the teacher that student belongs to
-- Teacher#students should return a list of all the students that belong to this teacher (
+- Teacher#students should return a list of all the students that belong to this teacher
