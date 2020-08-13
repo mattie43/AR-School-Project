@@ -15,3 +15,15 @@ Add these deliverables:
 - A Student belongs to a Teacher
 - Student#teacher should return the teacher that student belongs to
 - Teacher#students should return a list of all the students that belong to this teacher
+
+## PART 3
+Make all necessary changes to satisfy these deliverables: 
+- A Student has many Teachers through GradeLevel
+- A Teacher has many Students through GradeLevel
+You should have a complete seeds file 
+Answer the following questions:
+- What changes did you make to your app? Why?
+    Added CreateGradeLevel class/table
+    Deleted column teacher_id from students table
+    Added has_many and belongs_to macros
+    Changed seeds.rb to be updated with new reqs
