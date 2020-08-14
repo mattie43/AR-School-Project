@@ -27,3 +27,28 @@ Answer the following questions:
     Deleted column teacher_id from students table
     Added has_many and belongs_to macros
     Changed seeds.rb to be updated with new reqs
+
+## PART 4
+
+Locker belongs_to Student
+Student has_one Locker
+
+locker_table
+Location, string (Red Wing, Blue Wing, East Wing)
+Number, integer
+Combination, integer
+Book_Count, integer
+-Lockers can only hold a max of 5 books?
+
+Locker#clean_out
+-Clean out your locker, remove all books
+Locker#remove_book(book_count)
+-is locker empty?
+-Remove book(s) from locker
+Locker#add_book(book_count)
+-is locker full?
+-Add book(s) to locker
+Locker.first_available
+-Check first locker available to give to a (new?) student?
+Locker.clean_all
+-set all lockers to empty
