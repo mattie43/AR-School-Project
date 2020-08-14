@@ -20,3 +20,8 @@ Locker.create(location: "East Wing", number: 05, combination: 3142, book_count: 
 GradeLevel.create(teacher_id: teacher1.id, student_id: student1.id)
 GradeLevel.create(teacher_id: teacher2.id, student_id: student2.id)
 GradeLevel.create(teacher_id: teacher3.id, student_id: student3.id)
+
+appleone = Apple.create(kind: "gala", status: "ripe", teacher: teacher1)
+appletwo = Apple.create(kind: "fuji", status: "rotten", teacher: teacher2)
+applethree = Apple.create(kind: "honeycrisp", status: "not ripe", teacher: teacher1)
+applefour = Apple.create(kind: "gala", status: "ripe", teacher: teacher3)
